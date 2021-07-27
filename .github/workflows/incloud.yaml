@@ -84,7 +84,7 @@ jobs:
       - name: Commit results to Github
         run: |
           git config --local user.email "951331714@qq.com"
-          git config --global user.name "1"
+          git config --global user.name "Flash1201"
           git commit -m "InCloud Report" -a --allow-empty
       - name: Push changes
         uses: ad-m/github-push-action@master
